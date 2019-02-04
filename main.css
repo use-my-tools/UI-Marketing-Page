@@ -126,26 +126,32 @@ button:hover{
     width: 60%;
     text-align: center;
     color: white;
+    height: 100%;
 }
 #iframe{
     width: 40%;
+    height: 100%;
+    
     
 }
 
 
 .row-stagger-wrapper-left iframe{
     width: 100%;
-    height:350px;
+    height: 400px;
+    object-fit: cover;
 }
 
 #pic-content{
     width: 40%;
     
+    
 }
 
 .row-stagger-wrapper-right img, .row-stagger-wrapper-left img{
     width: 100%;
-    height:350px;
+    height: 400px;
+    object-fit:cover;
 }
 
 
@@ -163,6 +169,30 @@ button:hover{
     flex-direction: row-reverse;
     align-items: center;
 }
+
+/*=====================Third Section - Bullet Point Table============================*/
+
+.row-bullet-points-table-wrapper{
+    background: #febd16;
+    
+}
+
+
+.row-bullet-points-table-wrapper #make{
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+.row-bullet-points-table-wrapper .bullet{
+    min-width:33%;
+    text-align: center;
+}
+
+
 
 
 
