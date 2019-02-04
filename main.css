@@ -1,0 +1,31 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+
+.wrapper{
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("Images/george-pastushok-383925-unsplash.jpg");
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("Images/george-pastushok-383925-unsplash.jpg");
+	background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("Images/george-pastushok-383925-unsplash.jpg");
+	background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("Images/george-pastushok-383925-unsplash.jpg");
+    background-size: cover;
+    background-position: center center;
+    min-height:100%;
+   
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+header nav a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    margin-top:20px;
+   
+
+}
