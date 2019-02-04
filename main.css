@@ -3,6 +3,10 @@ html, body{
     margin: 0;
 }
 
+h2, h3, h4, p, button, h1{
+    font-family: Montserrat;
+}
+
 header nav{
     display: flex;
     justify-content: center;
@@ -17,36 +21,41 @@ header nav a{
     margin-top:20px;
     padding-left: 20px;
     padding-right: 20px;
+    font-family: Montserrat;
    
 
 }
 
-.wrapper{
+.bg-wrapper{
     background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("Images/george-pastushok-383925-unsplash.jpg");
     background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("Images/george-pastushok-383925-unsplash.jpg");
 	background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("Images/george-pastushok-383925-unsplash.jpg");
 	background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("Images/george-pastushok-383925-unsplash.jpg");
     background-size: cover;
     background-position: center center;
-    min-height:100%;
     display: flex;
+    min-height:100%;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
+    
+    
 }
+
 
 .intro-banner{
     width: auto;
+
 }
 
 .intro-banner-info{
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
     color: white;
 }
 
 .intro-banner-info button{
 
-    font-size: 28px;
+    font-size: 24px;
     padding: 10px 50px 10px 50px;
     border-radius: 10px;
     color: white;
@@ -55,12 +64,59 @@ header nav a{
 
 .intro-banner-info button:hover{
 
-    font-size: 28px;
-    padding: 10px 50px 10px 50px;
-    border-radius: 10px;
     color: white;
     background-color: black;
 }
 .logo {
     text-align: center;
+}
+
+.spotlight-wrapper{
+    background-color: #febd16;
+    text-align: center;
+    display: flex;
+    justify-content: center;  
+
+}
+
+.info-header-section1{
+    margin-top: 100px;
+}
+
+#one{
+    width: 60em;
+}
+
+#one img{
+    
+ 
+}
+
+#one h3{
+    font-size: 25px;
+}
+#one p{
+    font-size: 20px;
+}
+
+.separator{
+    border: 1px dotted #36454f;
+
+}
+
+.img-row{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-row img{
+    width: 25%;
+      height: 35%;
+      border-radius: 20px;
+      padding: 10px;
+      border: 1px dotted white;
+      margin-left: 4px;
+      margin-right: 4px;
 }
