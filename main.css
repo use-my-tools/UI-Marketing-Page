@@ -26,6 +26,8 @@ header nav a{
 
 }
 
+/*========================Main Section=========================*/
+
 .bg-wrapper{
     background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("Images/george-pastushok-383925-unsplash.jpg");
     background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("Images/george-pastushok-383925-unsplash.jpg");
@@ -53,7 +55,7 @@ header nav a{
     color: white;
 }
 
-.intro-banner-info button{
+button{
 
     font-size: 24px;
     padding: 10px 50px 10px 50px;
@@ -62,7 +64,7 @@ header nav a{
     background-color: #febd16;
 }
 
-.intro-banner-info button:hover{
+button:hover{
 
     color: white;
     background-color: black;
@@ -70,6 +72,8 @@ header nav a{
 .logo {
     text-align: center;
 }
+
+/*========================First Section=========================*/
 
 .spotlight-wrapper{
     background-color: #febd16;
@@ -80,22 +84,17 @@ header nav a{
 }
 
 .info-header-section1{
-    margin-top: 100px;
+    margin-top: 75px;
 }
 
-#one{
+.spotlight-wrapper #one{
     width: 60em;
 }
 
-#one img{
-    
- 
-}
-
-#one h3{
+.spotlight-wrapper #one h3{
     font-size: 25px;
 }
-#one p{
+.spotlight-wrapper #one p{
     font-size: 20px;
 }
 
@@ -109,6 +108,7 @@ header nav a{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 75px;
 }
 
 .img-row img{
@@ -120,3 +120,50 @@ header nav a{
       margin-left: 4px;
       margin-right: 4px;
 }
+
+/*=====================Second Section - Staggered Rows============================*/
+#content{
+    width: 60%;
+    text-align: center;
+    color: white;
+}
+#iframe{
+    width: 40%;
+    
+}
+
+
+.row-stagger-wrapper-left iframe{
+    width: 100%;
+    height:350px;
+}
+
+#pic-content{
+    width: 40%;
+    
+}
+
+.row-stagger-wrapper-right img, .row-stagger-wrapper-left img{
+    width: 100%;
+    height:350px;
+}
+
+
+
+.row-stagger-wrapper-left{
+    background-color: #212b31 ;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+}
+
+.row-stagger-wrapper-right{
+    background-color: #171d22;
+    display: flex; 
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+
+
+
