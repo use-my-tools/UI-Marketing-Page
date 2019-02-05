@@ -1,6 +1,6 @@
 
 
-//Variables
+//Variables//
 
 const headerButton = document.querySelector('.main-btn');
 const bgImage = document.querySelector('.bg-wrapper');
