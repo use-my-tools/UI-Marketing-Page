@@ -1,0 +1,286 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+h2, h3, h4, p, button, h1, a{
+    font-family: Montserrat;
+    text-decoration: none;
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
+    background-color: #febd16;
+    display: none;
+   
+}
+
+header nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Montserrat;
+}
+
+header nav a:hover{
+    color: black;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/*========================Main Section=========================*/
+
+.bg-wrapper{
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("Images/george-pastushok-383925-unsplash.jpg");
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("Images/george-pastushok-383925-unsplash.jpg");
+	background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("Images/george-pastushok-383925-unsplash.jpg");
+	background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("Images/george-pastushok-383925-unsplash.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    min-height:100%;
+    align-items: center;
+    justify-content: center;   
+}
+
+
+.intro-banner{
+    width: auto;
+
+}
+
+.intro-banner-info, .intro-banner-info a{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.intro-banner-info a{
+    margin-left: 20px;
+}
+
+.intro-banner-info a:hover{
+    color: #febd16;
+}
+
+
+
+button{
+
+    font-size: 24px;
+    padding: 10px 50px 10px 50px;
+    border-radius: 10px;
+    color: white;
+    background-color: #febd16;
+}
+
+button:hover {
+
+    color: white;
+    background-color: black;
+}
+.logo {
+    text-align: center;
+}
+
+/*========================First Section=========================*/
+
+.spotlight-wrapper{
+    background-color: #febd16;
+    text-align: center;
+    display: flex;
+    justify-content: center;  
+
+}
+
+.info-header-section1{
+    margin-top: 75px;
+}
+
+.spotlight-wrapper #one{
+    width: 60em;
+}
+
+.spotlight-wrapper #one h3{
+    font-size: 25px;
+}
+.spotlight-wrapper #one p{
+    font-size: 20px;
+}
+
+.separator{
+    border: 1px dotted #36454f;
+
+}
+
+.img-row{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 75px;
+}
+
+.img-row img{
+    width: 25%;
+      height: 35%;
+      border-radius: 20px;
+      padding: 10px;
+      border: 1px dotted white;
+      margin-left: 4px;
+      margin-right: 4px;
+}
+
+/*=====================Second Section - Staggered Rows============================*/
+#content{
+    width: 60%;
+    text-align: center;
+    color: white;
+    height: 100%;
+}
+#iframe{
+    width: 40%;
+    height: 100%;
+    
+    
+}
+
+
+.row-stagger-wrapper-left iframe{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+#pic-content{
+    width: 40%;
+    
+    
+}
+
+.row-stagger-wrapper-right img, .row-stagger-wrapper-left img{
+    width: 100%;
+    height: 400px;
+    object-fit:cover;
+}
+
+
+
+.row-stagger-wrapper-left{
+    background-color: #212b31 ;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+}
+
+.row-stagger-wrapper-right{
+    background-color: #171d22;
+    display: flex; 
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+/*=====================Third Section - Features Table============================*/
+
+.row-bullet-points-table-wrapper{
+    background: #febd16;
+    display: flex;
+    
+}
+
+
+.row-bullet-points-table-wrapper #features-section{
+    background-color: rgba(255,255,255,0.8);
+    width: 70em;
+    margin: 0 auto;
+    
+}
+
+.row-bullet-points-table-wrapper #features-section h2{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.row-bullet-points-table-wrapper .features{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:100%;
+    padding: 0;
+
+}
+
+.row-bullet-points-table-wrapper .features li{
+    width: 35%;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    margin-left: 3px;
+    margin-right: 3px;
+    background-color: #febd16;
+    border: 1px dotted black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+/*=====================CTA Row============================*/
+
+.cta-wrapper{
+    background-color: #171d22;
+    display: flex;
+    
+}
+
+.cta-wrapper #cta{
+    width:90em;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-wrapper #cta button, .cta-wrapper #cta h2{
+    margin: 20px;
+    color: white;
+}
+
+.footer-wrapper{
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("Images/george-pastushok-383925-unsplash.jpg");
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("Images/george-pastushok-383925-unsplash.jpg");
+	background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("Images/george-pastushok-383925-unsplash.jpg");
+	background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("Images/george-pastushok-383925-unsplash.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;   
+}
+
+.footer-wrapper #footer-container{
+    width: 30em;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-wrapper p{
+    color: white;
+}
+
+
+
+
+
+
+
+
