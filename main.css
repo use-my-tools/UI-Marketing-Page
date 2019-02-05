@@ -47,9 +47,7 @@ ul{
     display: flex;
     min-height:100%;
     align-items: center;
-    justify-content: center;
-    
-    
+    justify-content: center;   
 }
 
 
@@ -189,7 +187,7 @@ button:hover {
     align-items: center;
 }
 
-/*=====================Third Section - Bullet Point Table============================*/
+/*=====================Third Section - Features Table============================*/
 
 .row-bullet-points-table-wrapper{
     background: #febd16;
@@ -225,9 +223,61 @@ button:hover {
     text-align: center;
     margin-bottom: 5px;
     margin-top: 20px;
+    margin-left: 3px;
+    margin-right: 3px;
     background-color: #febd16;
     border: 1px dotted black;
+    border-radius: 10px;
+    padding: 10px;
 }
+
+
+/*=====================CTA Row============================*/
+
+.cta-wrapper{
+    background-color: #171d22;
+    display: flex;
+    
+}
+
+.cta-wrapper #cta{
+    width:90em;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-wrapper #cta button, .cta-wrapper #cta h2{
+    margin: 20px;
+    color: white;
+}
+
+.footer-wrapper{
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("Images/george-pastushok-383925-unsplash.jpg");
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("Images/george-pastushok-383925-unsplash.jpg");
+	background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("Images/george-pastushok-383925-unsplash.jpg");
+	background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("Images/george-pastushok-383925-unsplash.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;   
+}
+
+.footer-wrapper #footer-container{
+    width: 30em;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-wrapper p{
+    color: white;
+}
+
+
 
 
 
