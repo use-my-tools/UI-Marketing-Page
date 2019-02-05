@@ -198,10 +198,17 @@ button:hover {
 }
 
 
-.row-bullet-points-table-wrapper #make{
-    width: 80em;
+.row-bullet-points-table-wrapper #features-section{
+    background-color: rgba(255,255,255,0.8);
+    width: 70em;
     margin: 0 auto;
     
+}
+
+.row-bullet-points-table-wrapper #features-section h2{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
 }
 
 .row-bullet-points-table-wrapper .features{
@@ -209,11 +216,17 @@ button:hover {
     flex-wrap: wrap;
     justify-content: center;
     width:100%;
+    padding: 0;
+
 }
 
 .row-bullet-points-table-wrapper .features li{
-    width: 50%;
+    width: 35%;
     text-align: center;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    background-color: #febd16;
+    border: 1px dotted black;
 }
 
 
