@@ -1,0 +1,22 @@
+{
+  "name": "ui-marketing-page",
+  "version": "1.0.0",
+  "description": "UI Page Lambda Build Week",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pschwin/UI-Marketing-Page.git"
+  },
+  "author": "Patrick Schwindt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pschwin/UI-Marketing-Page/issues"
+  },
+  "homepage": "https://github.com/pschwin/UI-Marketing-Page#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
