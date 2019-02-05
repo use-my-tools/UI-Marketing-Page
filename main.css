@@ -3,14 +3,16 @@ html, body{
     margin: 0;
 }
 
-h2, h3, h4, p, button, h1{
+h2, h3, h4, p, button, h1, a{
     font-family: Montserrat;
+    text-decoration: none;
 }
 
 header nav{
     display: flex;
     justify-content: center;
     background-color: #febd16;
+    display: none;
    
 }
 
@@ -19,11 +21,18 @@ header nav a{
     font-size: 20px;
     color: white;
     margin-top:20px;
+    margin-bottom:20px;
     padding-left: 20px;
     padding-right: 20px;
     font-family: Montserrat;
-   
+}
 
+header nav a:hover{
+    color: black;
+}
+
+ul{
+    list-style-type: none;
 }
 
 /*========================Main Section=========================*/
@@ -49,11 +58,21 @@ header nav a{
 
 }
 
-.intro-banner-info{
+.intro-banner-info, .intro-banner-info a{
     text-align: center;
     font-size: 30px;
     color: white;
 }
+
+.intro-banner-info a{
+    margin-left: 20px;
+}
+
+.intro-banner-info a:hover{
+    color: #febd16;
+}
+
+
 
 button{
 
@@ -64,7 +83,7 @@ button{
     background-color: #febd16;
 }
 
-button:hover{
+button:hover {
 
     color: white;
     background-color: black;
@@ -174,21 +193,26 @@ button:hover{
 
 .row-bullet-points-table-wrapper{
     background: #febd16;
+    display: flex;
     
 }
 
 
 .row-bullet-points-table-wrapper #make{
-    display: flex;
-    flex-wrap: wrap;  
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
+    width: 80em;
+    margin: 0 auto;
     
 }
 
-.row-bullet-points-table-wrapper .bullet{
-    min-width:33%;
+.row-bullet-points-table-wrapper .features{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:100%;
+}
+
+.row-bullet-points-table-wrapper .features li{
+    width: 50%;
     text-align: center;
 }
 
