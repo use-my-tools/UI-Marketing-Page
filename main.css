@@ -8,6 +8,10 @@ h2, h3, h4, p, button, h1, a{
     text-decoration: none;
 }
 
+button{
+    cursor:pointer;
+}
+
 header nav{
     display: flex;
     justify-content: center;
@@ -172,17 +176,18 @@ button:hover {
 }
 
 
-
 .row-stagger-wrapper-left{
     background-color: #212b31 ;
     display: flex; 
     flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .row-stagger-wrapper-right{
     background-color: #171d22;
-    display: flex; 
+    display: flex;
+    flex-wrap: wrap;
     flex-direction: row-reverse;
     align-items: center;
 }
@@ -275,6 +280,54 @@ button:hover {
 
 .footer-wrapper p{
     color: white;
+}
+
+/*=====================Media Queries - Phone ============================*/
+
+@media (max-width: 500px){
+    .img-row img{
+        width: 100%;
+        
+    }
+    .img-row{
+        padding: 30px;
+    }
+
+    #iframe{
+        width: 100%;
+        padding: 20px;
+    }
+
+    #content{
+        width: 100%;
+        padding: 20px;
+    }
+
+    #content button{
+        margin-bottom: 50px;
+    }
+
+    #pic-content{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .row-bullet-points-table-wrapper .features li{
+        width: 80%;
+    }
+
+    #cta h2{
+        display: none;
+    }
+
+    .cta-wrapper #cta{
+        justify-content: center;
+    }
+
+    .footer-wrapper #footer-container{
+        padding: 20px;
+    }
+    
 }
 
 
