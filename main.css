@@ -285,9 +285,18 @@ button:hover {
 /*=====================Media Queries - Phone ============================*/
 
 @media (max-width: 500px){
+
+    .intro-banner-info h3{
+        font-size: 25px;
+        padding: 12px;
+    }
+    
+    .intro-banner-info button{
+        width: 75%;
+        margin-bottom: 20px;
+    }
     .img-row img{
-        width: 100%;
-        
+        width: 100%;   
     }
     .img-row{
         padding: 30px;
