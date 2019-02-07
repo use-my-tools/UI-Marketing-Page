@@ -641,6 +641,11 @@ button:hover {
     padding: 20px; 
 }
 
+#footer-2{
+    background-color: black;
+    background-image: none;
+}
+
 .footer-wrapper #footer-container{
     width: 30em;
     margin: 0 auto;
