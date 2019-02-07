@@ -723,7 +723,7 @@ button:hover {
 
 }
 
-@media (min-width: 800px){
+@media (min-width: 1200px){
     .intro-banner-info{
         width: 100%; 
     }
