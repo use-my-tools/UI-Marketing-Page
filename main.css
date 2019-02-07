@@ -1,3 +1,18 @@
+/*---------CSS For Biography Expansion About Page-----------------------------------*/
+
+.member{
+    height: 200px;
+    overflow: hidden;
+}
+
+
+.team-open{
+    height: auto;
+    overflow: none;
+}
+
+
+
 /*------------------------DESKTOP FIRST-------------------------*/
 
 /* html, body{
@@ -366,7 +381,7 @@ header nav{
     display: flex;
     justify-content: center;
     background-color: #febd16;
-    display: none;
+    
    
 }
 
@@ -639,6 +654,70 @@ button:hover {
     color: white;
 }
 
+/*About Page*/
+
+.about-header{
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.about-header h2{
+    
+    margin: 0;
+    color: white;
+    font-size: 40px;
+}
+
+.team-members{
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("Images/george-pastushok-383925-unsplash.jpg");
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("Images/george-pastushok-383925-unsplash.jpg");
+	background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("Images/george-pastushok-383925-unsplash.jpg");
+	background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("Images/george-pastushok-383925-unsplash.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.member{
+    background-color:black;
+    color: white;
+    margin: 10px;
+    padding:20px;
+    border: 1px dotted #febd16;
+    border-radius: 10px;
+}
+
+.member h3{
+    font-size: 30px;
+    margin: 25px 0px 0px 0px;
+}
+
+.member p{
+    font-size: 22px;
+}
+
+
+.team-members #member-section{
+    background-color: rgba(255,255,255,0.8);
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    border: 2px dotted #febd16;
+    padding: 30px;
+    
+}
+
+.team-members .member{
+    
+    width:100%;
+    padding: 0;
+    text-align:center;
+
+}
+
 @media (min-width: 800px){
     .intro-banner-info{
         width: 100%; 
@@ -669,8 +748,17 @@ button:hover {
     .row-bullet-points-table-wrapper .features li{
         width: 35%;
     }
+
+    .team-members .member{
+        width: 35%;
+    }
+
    
 }
+
+
+
+
 
 
 
